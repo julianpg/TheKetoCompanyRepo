@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>K|C</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The Keto Company" />
+	<meta name="keywords" content="Keto Ketogenic Low Carb" />
+	<meta name="author" content="TheKetoCompany.com" />
+	<meta HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!-- Bootstrap and default Style -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
+	<link rel="stylesheet" href="flip/flip.min.css" />
+
+
+<!-- Modernizr JS -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+<![endif]-->
+<style>
+	body, html {
+		height: 100%;
+		margin: 0;
+	}
+
+	.bg {
+		/* The image used */
+		background-image: url("images/background3.jpg");
+
+		/* Full height */
+		height: 100%; 
+
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.content {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.tick {
+		font-size:1rem; white-space:nowrap; font-family:arial,sans-serif;
+	}
+
+	.tick-flip,.tick-text-inline {
+		font-size:2.5em;
+	}
+
+	.tick-label {
+		margin-top:1em;font-size:1em;
+	}
+
+	.tick-char {
+		width:1.5em;
+	}
+
+	.tick-text-inline {
+		display:inline-block;text-align:center;min-width:1em;
+	}
+
+	.tick-text-inline+.tick-text-inline {
+		margin-left:-.325em;
+	}
+
+	.tick-group {
+		margin:0 .5em;text-align:center;
+	}
+
+
+	.tick-text-inline {
+		color: #595d63 !important; 
+	}
+
+	.tick-label {
+		color: #8BC34A !important;
+		font: bold;
+	}
+
+	.tick-flip-panel {
+		color: #fff !important; 
+	}
+
+	.tick-flip {
+		font-family: !important; 
+	}
+
+	.tick-flip-panel-text-wrapper {
+		line-height: 1.45 !important; 
+	}
+
+	.tick-flip-panel {
+		background-color: #3c3e3c !important; 
+	}
+
+	.tick-flip {
+		border-radius:0.12em !important; 
+	}
+
+	@font-face {
+		font-family: rustic;
+		src: url('Rustic/vtksBold&Cool.ttf');
+	}
+
+	h1 { 
+		font-family: rustic;
+		color: #f8f8ff;
+		font-size: 80px;
+		text-align: center;
+		margin-bottom: 0px;
+		font-weight: 500;
+	}
+
+	h2 { 
+		font-family: rustic;
+		color: #f8f8ff;
+		font-size: 24px;
+		font-weight: 500;
+	}
+
+	.title { 
+		font-family: rustic;
+		text-align: center;
+		color: #f8f8ff;
+		font-size: 48px;
+	}
+
+	#cspio-page{
+		background-color: rgba(0,0,0,0);
+	}
+	
+	.flexbox #cspio-page{
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cspio body{
+		background: transparent;
+	}
+
+	.cspio body, .cspio body p{
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+		font-size: 20px;
+		line-height: 1.50em;
+		color:#ffffff;
+	}
+
+	::-webkit-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+	::-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	} 
+
+	:-ms-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	} 
+
+	:-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+	.cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
+		font-family: 'Pacifico';
+		color:#ffffff;
+	}
+
+	#cspio-headline{
+		font-family: 'Pacifico';
+		font-weight: 400;
+		font-style: ;
+		font-size: 48px;
+		color:#ffffff;
+		line-height: 1.00em;
+	}
+
+	.cspio button{
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+	
+	.cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
+		color: #ffffff;
+	}
+
+	#cspio-socialprofiles a {
+		color: #ffffff;
+	}
+	.cspio .btn-primary,
+	.cspio .btn-primary:focus,
+	.gform_button,
+	#mc-embedded-subscribe, .submit-button {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		background-color: #ffffff;
+		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
+		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: linear-gradient(top,#ffffff,#d9d9d9);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		*background-color: #d9d9d9;
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	}
+
+	.cspio .btn-primary:hover,
+	.cspio .btn-primary:active,
+	.cspio .btn-primary.active,
+	.cspio .btn-primary.disabled,
+	.cspio .btn-primary[disabled],
+	.cspio .btn-primary:focus:hover,
+	.cspio .btn-primary:focus:active,
+	.cspio .btn-primary:focus.active,
+	.cspio .btn-primary:focus.disabled,
+	.cspio .btn-primary:focus[disabled],
+	#mc-embedded-subscribe:hover,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active,
+	#mc-embedded-subscribe.disabled,
+	#mc-embedded-subscribe[disabled] {
+		background-color: #d9d9d9;
+		*background-color: #cccccc;
+	}
+
+	.cspio .btn-primary:active,
+	.cspio .btn-primary.active,
+	.cspio .btn-primary:focus:active,
+	.cspio .btn-primary:focus.active,
+	.gform_button:active,
+	.gform_button.active,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active {
+		background-color: #bfbfbf;
+	}
+
+	.form-control,
+	.progress {
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+
+	#cspio-progressbar span,
+	.countdown_section {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+	}
+
+	.cspio .btn-primary:hover,
+	.cspio .btn-primary:active {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		border-color: #e6e6e6;
+	}
+
+	.cspio input[type='text']:focus {
+		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+	}
+
+	#cspio-content {
+		display: none;
+		max-width: 600px;
+		background-color: #000000;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color:transparent;
+	}
+
+	.cspio .progress-bar,
+	.countdown_section,
+	.cspio .btn-primary,
+	.cspio .btn-primary:focus,
+	.gform_button {
+		background-image: none;
+		text-shadow: none;
+	}
+
+	.cspio input,
+	.cspio input:focus {
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+
+	#cspio-page{
+		background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+		background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+		background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	}
+
+	.cspio body{
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%); 
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
+		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 ); 
+	}
+
+	#cspio-subscribe-btn{
+		background:#8BC34A;
+		color: #fff;
+	}
+
+	#cspio-subscribe-btn:hover{
+		background: #8BC38A;
+		color: #fff;
+	}
+
+	#cspio-credit img{
+		margin-left:auto;
+		margin-right:auto;
+		width:125px;
+		margin-top: -4px;
+	}
+
+	#cspio-credit {
+		font-size:11px;
+	}
+
+</style>
+
+</head>
+<body>
+	<div class="bg">
+		
+		<div class="content">
+			<h1>K|C</h1>
+			<div class="title"><img src="images/oie_transparent.png" height="100px" width="100px"></div>
+			<div class="title">The Keto Company</div><br>
+			<div class="tick"
+			data-did-init="handleTickInit">
+
+			<div data-repeat="true"
+			data-layout="horizontal center fit"
+			data-transform="preset(d, h, m, s) -> delay">
+
+			<div class="tick-group">
+
+				<div data-key="value"
+				data-repeat="true"
+				data-transform="pad(00) -> split -> delay">
+
+				<span data-view="flip"></span>
+
+			</div>
+
+			<span data-key="label"
+			data-view="text"
+			class="tick-label"></span>
+
+		</div>
+
+	</div>
+
+</div>
+<br>
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" >
+
+	<div class="col-md-12 seperate">
+		<div class="input-group">
+			<input type=hidden name="oid" value="00D24000000K6Rm">
+			<input type=hidden name="retURL" value="https://google.com">
+			<input id="cspio-email" name="EMAIL" class="form-control input-lg form-el" type="email" placeholder="Subscribe for updates!" required/>
+			<span class="input-group-btn"><button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow">Subscribe</button></span>
+		</div>
+	</div>
+	<div class="col-md-12 seperate" ><input style="float:left" type="checkbox" name="tcs" required><p style="float:left;margin-left: 10px;color: #f8f8ff">by subscring for updates you agree to our T&Cs</p></div>
+
+
+</form>
+
+<!-- <footer>
+	<ul class="fh5co-social-icons">
+		<li><a href="#"><i class="icon-twitter-with-circle"></i></a></li>
+		<li><a href="#"><i class="icon-facebook-with-circle"></i></a></li>
+		<li><a href="#"><i class="icon-linkedin-with-circle"></i></a></li>
+		<li><a href="#"><i class="icon-instagram-with-circle"></i></a></li>
+	</ul>
+</footer> -->
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+
+<!-- Count Down -->
+<script src="flip/flip.min.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+<script>
+	function handleTickInit(tick) {
+
+		var counter = Tick.count.down('2020-07-30T00:00:00+01:00');
+		counter.onupdate = function(value) {
+			tick.value = value;
+		};
+
+		counter.onended = function() {
+            // redirect, uncomment the next line
+            // window.location = 'my-location.html'
+
+            // hide counter, uncomment the next line
+            // tick.root.style.display = 'none';
+
+            // show message, uncomment the next line
+            // document.querySelector('.tick-onended-message').style.display = '';
+        };
+
+    }
+</script>
+
+
+</body>
+</html>
+
