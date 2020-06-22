@@ -43,6 +43,8 @@
 	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
 	<link rel="stylesheet" href="flip/flip.min.css" />
 
+	<!-- social media css-->
+	<link rel="stylesheet" href="css/socialmedia.css">
 
 
 
@@ -180,6 +182,28 @@
 			/* The image used */
 			background-image: url("images/background3.jpg"); 
 
+		}
+
+		.content {
+			
+		    width: 100vw; 
+		    height: 56.25vw; /* height:width ratio = 9/16 = .5625  */
+		    max-height: 100vh;
+		    max-width: 177.78vh; /* 16/9 = 1.778 */
+		    margin: auto;
+		    position: absolute;
+		    top:0;bottom:0; /* vertical center */
+		    right:0; /* horizontal center */
+
+		}
+
+		.emailIput{
+			font-size: 13px;
+		}
+
+		.pText {
+			font-size: 10px;
+			text-align: left;
 		}
 	}
 	#cspio-page{
@@ -435,24 +459,32 @@
 		<div class="input-group">
 			<input type=hidden name="oid" value="00D24000000K6Rm">
 			<input type=hidden name="retURL" value="https://google.com">
-			<input id="cspio-email" name="EMAIL" class="form-control input-lg form-el" type="email" placeholder="Subscribe for updates!" required/>
+			<input id="cspio-email" name="EMAIL" class="form-control input-lg form-el emailInput" type="email" placeholder="Subscribe for updates!" required/>
 			<span class="input-group-btn"><button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow">Subscribe</button></span>
 		</div>
 	</div>
-	<div class="col-md-12 seperate" ><input style="float:left" type="checkbox" name="tcs" required><p style="float:left;margin-left: 10px;color: #f8f8ff">By subscribing for updates you agree to our  <a href="#popup-article" >T&Cs</a>, we are GDPR Compliant and we'll never spam you :)</p></div>
-
+	<div class="col-lg-12 seperate" style="display: flex;">
+		<input style="float:left" type="checkbox" id="tcs" name="tcs" required>
+		<label for="tcs" class="pText" style="float:left;margin-left: 10px;color: #f8f8ff;text-align: left;">By subscribing for updates you agree to our 
+		 <a href="#popup-article" >T&Cs</a>, we are GDPR Compliant and we'll never spam you :)
+		</label>
+	</div>
 
 </form>
+<br>
+<br>
 
-
-<!-- <footer>
-	<ul class="fh5co-social-icons">
-		<li><a href="#"><i class="icon-twitter-with-circle"></i></a></li>
-		<li><a href="#"><i class="icon-facebook-with-circle"></i></a></li>
-		<li><a href="#"><i class="icon-linkedin-with-circle"></i></a></li>
-		<li><a href="#"><i class="icon-instagram-with-circle"></i></a></li>
-	</ul>
-</footer> -->
+<footer>
+<div class="footer-social-icons">
+    <h4 class="_14">Follow us on</h4>
+    <ul class="social-icons">
+        <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+    </ul>
+</div>
+</footer>
 </div>
 <div id="popup-article" class="popup">
 	<div class="popup__block">
